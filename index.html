@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Project -->
+  
+  <!---- LOGIN FORM START ---->
+  <div class="LOGIN-REGISTER">
+      <div class="login-form ">
+       <form action="">
+           <label for="form-gead"><h1>Login</h1></label>
+          <label for="email"><img class="input-img email-img" src="/image/email.png"><input type="email" name="email" id="email" value="" class="email input" required placeholder="Email"></label>
+          <label for="pass"><img class="input-img pass-img" src="/image/lock.png"><input type="password" name="pass" id="pass" value="" class="pass input" required placeholder="Password"/><div class="eye">
+                                                                                                                                                                                          <img onclick="showPass()" class="close-eye" src="/image/close-eye.png">
+                                                                                                                                                                                          <img onclick="hidePass()" class="open-eye pp" src="/image/open-eye.png">
+                                                                                                                                                                                        </div></label>
+          <label for="remamber">
+                    <div class="remamber" id="remamber">
+                        <div class="check-text">
+                            <input type="checkbox" name="check" id="check" class="check" required>
+                            <h5>Remamber me</h5>
+                        </div>
+                        <div class="forget-link">
+                            <a href="#">Forget password?</a>
+                        </div>
+                    </div>
+          </label>
+          <label for="btn"><button type="submit" id="btn" class="btn">Login</button></label>
+          <label for="register-link">
+             <div class="register-link">
+               <p>You haven't account <a class="register-click" href="#">Register</a></p>
+             </div>
+          </label>
+       </form>
+     </div>
+     
+     
+     <div class="cover-imagetext">
+         <div class="image-text">
+             <h1>Every new friend is a new adventure </h1>
+             <p>let's get connected</p>
+             <button class="signup" id="signup" type="submit">Sign up</button>
+        </div>
+     </div>
+     
+     
+     
+     
+     <div class="register-form login-form pp">
+      <div class="register-form">
+       <form action="">
+           <label for="form-head"><h1>Register</h1></label>
+          <label for="email"><img class="input-img email-img" src="/image/email.png"><input type="email" name="email" id="email" value="" class="email input" required placeholder="Email"></label>
+          <label for="pass"><img class="input-img pass-img" src="/image/lock.png"><input type="password" name="pass" id="pass" value="" class="pass input" required placeholder="Password"/></label>
+            <label for="pass"><img class="input-img pass-img" src="/image/lock.png"><input type="password" name="pass" id="pass" value="" class="pass input" required placeholder=" Re-Password"/><div class="eye">
+                                                                                                                                                                                                         <img onclick="showPass()" class="close-eye" src="/image/close-eye.png">
+                                                                                                                                                                                                           <img onclick="hidePass()" class="open-eye pp" src="/image/open-eye.png">
+                                                                                                                                                                                                      </div></label>
+          <label for="remamber">
+                    <div class="remamber agree" id="remamber">
+                        <div class="agree-condition">
+                            <input type="checkbox" name="check" id="check" class="check" required>
+                            <h5>I agree all conditions & term's.</h5>
+                        </div>
+                    </div>
+          </label>
+          <label for="btn"><button type="submit" id="btn" class="btn">Register</button></label>
+          <label for="register-link">
+             <div class="register-link">
+               <p>You haven't account <a class="login-click"  href="#">Login</a></p>
+             </div>
+          </label>
+       </form>
+     </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
